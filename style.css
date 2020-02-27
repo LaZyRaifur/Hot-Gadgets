@@ -1,0 +1,64 @@
+.container{
+    margin-bottom: 100px;
+}
+#logo{
+    margin-right: 50%;
+}
+.buy-now-button{
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(to bottom, #000000 0%,#000000 100%);
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.cat1, .cat2, .cat3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+
+}
+.price-level{
+    margin: 10px;
+}
+.see{
+    color: goldenrod;
+}
+.card-deck{
+    margin: 10px;
+}
+br{
+    color: gold;
+}
+#categories h2::after{
+    content: '';
+    display: block;
+    position: relative;
+    font-size: 38px;
+    text-transform: uppercase;
+    height: 7px;
+    width: 130px;
+    background-image: linear-gradient(to right,#FFC71D 0%,#AE8509);
+    margin: auto;
+    top: 10px;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+}
+.contact-bg{
+    background-color: hotpink;
+    border-radius: 10px;
+    height: 100%;
+}
